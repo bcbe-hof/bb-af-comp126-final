@@ -1,53 +1,378 @@
 body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color:whitesmoke;
-    color: darkslategrey;
-  }
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color:whitesmoke;
+  color: darkslategrey;
+}
+
+header {
+  background-color: darkred; 
+  color: whitesmoke; 
+  padding: 20px; 
+  text-align: center; 
+  width: 100%;
+}
+
+header h1 {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin:0%;
+  font-size: 2.5em;
+
+}
+
+header h3 {
+  font-family:'Times New Roman', Times, serif;
+  margin: 2em;
+  font-size: 1.5em;
+}
+
+nav ul {
+  list-style: none; 
+  padding: 50px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block; 
+  margin-top: 20px; 
+}
+
+nav ul li a {
+  color: darkslategrey; 
+  font-size: 1.2em;
+  font-weight:lighter;
+  padding: 15px 20px; 
+  border-radius: 2px; 
+  transition: background-color 0.3s ease; 
+}
+
+nav ul li a:hover {
+  background-color: lightgray; 
+}
+
+
+
+.main-content {
+  display: flex; 
+  align-items: center; 
+  padding: 50px;
+}
+
+
+.main-image {
+  width: 210px; 
+  height: auto; 
+  margin-right: 50px; 
+  border: 2px solid black; 
+  border-radius: 10px; 
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.text-content h2 {
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+width: 50%;
+margin: 0;
+}
+
+.text-content p {
+ width: 50%;
+}
+
+footer {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+  color: black;
+  border-top: 1px solid lightgrey;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+
+.active {
+  color: black; 
+  background-color: lightgrey; 
+  padding: 10px; 
+  border-radius: 5px; 
+}
+
+.active a {
+  text-decoration: none; 
+}
+
+nav ul li.active a:hover {
+  background-color: initial; 
+  cursor: default; 
+}
+
+.contentpage2 {
+  display: inline-block;
+  vertical-align: middle; 
+  padding: 50px;
+  width: 100%; 
+}
+
+.container {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.game-day-box {
+  display: inline-block; 
+  vertical-align: middle; 
+  text-align: center;
+  background-color: lightsteelblue; 
+  color: whitesmoke; 
+  padding: 10px; 
+  width: 100px; 
+  margin: 20px; 
+  font-size: 1.5em; 
+  margin: 0 auto ;
+  text-align: center;
+}
+
+.game-image1 {
+  display: inline-block; 
+  vertical-align: middle; 
+  width: 210px; 
+  height: auto; 
+  padding: 10px;
+  margin: 0 auto;
+  margin-right: 20px;
+  border: 2px solid black; 
+  border-radius: 10px; 
+
+}
+
+.game-image2 {
+  display: inline-block; 
+  vertical-align: middle; 
+  width: 210px; 
+  height: auto; 
+  padding: 10px;
+  margin: 0 auto;
+  margin-left: 20px ;
+  border: 2px solid black;
+  border-radius: 10px; 
+}
+
+
+
+
+
+
+.flexboxnav {
+  display: flex;
+  align-self: flex-end;
+  justify-content: flex-end; 
+  padding-bottom: 20px;
+}
+
+.flexboxnav ul {
+  display: flex;
+  list-style: none;
+  padding: 0; 
+  margin: 0;
+}
+
+.flexboxnav ul li {
+  margin-left: 10px; 
+}
+
+.flexboxnav ul li a {
+  color: white;
+  font-size: 1em;
+  font-weight: lighter;
+  padding: 0px 0px;
+  border-radius: 5px;
+}
+
+.flexboxnav ul li a:hover {
+  background-color: black;
+} 
+
+
+
+
+.topnav-image {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+  background-color: darkred;
+}
+
+.image-container {
+  display: flex;
+  align-self: flex-end;
+  justify-content: space-around;
+  background-image: url("/images/city.jpg");
+  height: 10rem;
+  width: 50%;
+  background-position: center;
+  background-size: cover;
+}
+
+.image-part-part1{
+  background: darkred;
+  display: flex;
+  flex-grow: 1.2;
+  flex-basis: 5rem ;
+  margin-right: 7%;
+
+}
+.image-part-part2 {
+  background-color: darkred;
+  flex-basis: 5rem ;
+  margin-right: 7%;
+}
+.image-part-part3 {
+  background-color: darkred;
+  flex-basis: 5rem ;
+  margin-right: 7%;
+}
+.image-part-part4 {
+  background-color: darkred;
+  flex-basis: 5rem ;
+  margin-right: 14%;
+}
+.image-part-part5 {
+  background-color: darkred;
+  flex-basis: 5rem ;
+  margin-right: 16%;
+}
+.image-part-part6 {
+  background-color: darkred;
+  flex-basis: 5rem ;
+  margin-right: 35%;
+}
+
+
+
+
+
+
+.flexboxheader {
+  display: flex;
+  background-color: darkred;
+  color: whitesmoke;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  flex-direction: column; 
+  align-items: flex-start; 
+}
+.flexboxheader h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin: 0;
+  font-size: 2.5em;
   
-  header {
-    background-color: darkred; 
-    color: whitesmoke; 
-    padding: 20px; 
-    text-align: center; 
-    width: 100%;
-  }
+}
+.flexboxheader h2 {
+  font-family:Georgia, 'Times New Roman', Times, serif; 
+  margin: 5px 0; 
+  font-size: 1em; 
+  color: whitesmoke; 
+}
+
+
+
+
+
+.tripcontainer {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  gap: 10px;
+  align-items: stretch;
+}
+
+.left-column {
   
-  header h1 {
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin:0%;
-    font-size: 2.5em;
+  flex: 1 1 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   
-  }
-  
-  header h3 {
-    font-family:'Times New Roman', Times, serif;
-    margin: 2em;
-    font-size: 1.5em;
-  }
-  
-  nav ul {
-    list-style: none; 
-    padding: 50px;
-    margin: 20px 0;
-    text-align: center;
-  }
-  
-  nav ul li {
-    display: inline-block; 
-    margin-top: 20px; 
-  }
-  
-  nav ul li a {
-    color: darkslategrey; 
-    font-size: 1.2em;
-    font-weight:lighter;
-    padding: 15px 20px; 
-    border-radius: 2px; 
-    transition: background-color 0.3s ease; 
-  }
-  
-  nav ul li a:hover {
-    background-color: lightgray; 
-  }
+}
+.right-column {
+  flex:1 1 80%;
+  display: flex;
+}
+
+.image-small {
+  width: 100%; 
+  height: 50%;
+  border-radius: 10px; 
+}
+
+.image-large {
+  width: 100%;  
+  border-radius: 10px; 
+}
+
+
+.flexfooter {
+  display: flex;
+  justify-content: space-between; 
+  justify-content: center;
+  align-items: center; 
+  background-color: #f1f1f1;
+  padding: 20px;
+  color: black;
+  border-top: 1px solid lightgrey;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.flexfooter p {
+  margin: 0;
+  padding-left: 10px;
+}
+
+.flexfooter a {
+  color: black;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.flexfooter a:hover {
+  text-decoration: underline;
+}
+
+.triptext {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+section {
+  border-bottom: 1px solid lightgrey;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+  font-weight: normal;
+}
+
+p {
+  font-size: 0.8em;
+  line-height: 1.6;
+}
+
+
