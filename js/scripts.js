@@ -31,4 +31,25 @@ function myFunction() {
     } else {
       x.className = "topnav";
     }
-  } 
+  }
+
+  function showContent(category) {
+    const skillsContent = document.getElementById('skills-content');
+    let content = '';
+
+    switch (category) {
+      case 'programs':
+        content = '<h3>Programs</h3><p>Details about various programs...</p>';
+        break;
+      case 'languages':
+        content = '<h3>Languages</h3><p>Details about different languages...</p>';
+        break;
+      case 'certifications':
+        content = '<h3>Certifications</h3><p>Details about certifications...</p>';
+        break;
+      default:
+        content = '<p>Select an option to see details.</p>';
+    }
+
+    skillsContent.innerHTML = content;
+  }

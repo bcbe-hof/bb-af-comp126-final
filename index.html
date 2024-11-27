@@ -13,15 +13,15 @@
 </head>
 
 <body>
-  <div class="topnav" id="myTopnav">
-    <a href="#main-conent1" class="active">Home</a>
+  <div class="topnav sticky-top" id="myTopnav">
+    <a href="#main-content1" class="active">Home</a>
     <a href="#life-in-us">Life in US</a>
     <a href="#skills">Skills</a>
     <a href="#aspirations">Aspirations</a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
       <i class="fa fa-bars"></i>
     </a>
-  </div>
+  </div>  
   
     <div class="grid-container">
       <header class="header">
@@ -35,6 +35,13 @@
           <div class="text-content">
             <h2>Welcome to My digital home!</h2>
             <p>"Hey there! I’m spending a year trying to live like a true ‘American girl,’ and I want you to join me for the ride. It's my first time outside of Europe and away from my parents—so you can bet this is all new to me! I’m obsessed with fashion and love traveling, and I’ll be sharing all my culture shocks and fun experiences right here. Homesick? Nah, I’m living my own Hannah Montana moment."</p>
+          
+            <p>"Hey there! I’m spending a year trying to live like a true ‘American girl,’ and I want you to join me for the ride. It's my first time outside of Europe and away from my parents—so you can bet this is all new to me! I’m obsessed with fashion and love traveling, and I’ll be sharing all my culture shocks and fun experiences right here. Homesick? Nah, I’m living my own Hannah Montana moment."</p>
+
+            <p>"Hey there! I’m spending a year trying to live like a true ‘American girl,’ and I want you to join me for the ride. It's my first time outside of Europe and away from my parents—so you can bet this is all new to me! I’m obsessed with fashion and love traveling, and I’ll be sharing all my culture shocks and fun experiences right here. Homesick? Nah, I’m living my own Hannah Montana moment."</p>
+
+            <p>"Hey there! I’m spending a year trying to live like a true ‘American girl,’ and I want you to join me for the ride. It's my first time outside of Europe and away from my parents—so you can bet this is all new to me! I’m obsessed with fashion and love traveling, and I’ll be sharing all my culture shocks and fun experiences right here. Homesick? Nah, I’m living my own Hannah Montana moment."</p>
+
           </div>
         </div>
       </section>
@@ -43,18 +50,33 @@
             <img src="images/city.jpg" alt="Me" class="main-image">
             <div class="text-content">
               <h2>Welcome to life in the us!</h2>
-              <p>"Hey there! I’m spending a year trying to live like a true ‘American girl,’ and I want you to join me for the ride. It's my first time outside of Europe and away from my parents—so you can bet this is all new to me! I’m obsessed with fashion and love traveling, and I’ll be sharing all my culture shocks and fun experiences right here. Homesick? Nah, I’m living my own Hannah Montana moment."</p>
+            <p>"Hey there! I’m spending a year trying to live like a true ‘American girl,’ and I want you to join me for the ride. It's my first time outside of Europe and away from my parents—so you can bet this is all new to me! I’m obsessed with fashion and love traveling, and I’ll be sharing all my culture shocks and fun experiences right here. Homesick? Nah, I’m living my own Hannah Montana moment."</p>
+          
+            <p>"Hey there! I’m spending a year trying to live like a true ‘American girl,’ and I want you to join me for the ride. It's my first time outside of Europe and away from my parents—so you can bet this is all new to me! I’m obsessed with fashion and love traveling, and I’ll be sharing all my culture shocks and fun experiences right here. Homesick? Nah, I’m living my own Hannah Montana moment."</p>
+
+            <p>"Hey there! I’m spending a year trying to live like a true ‘American girl,’ and I want you to join me for the ride. It's my first time outside of Europe and away from my parents—so you can bet this is all new to me! I’m obsessed with fashion and love traveling, and I’ll be sharing all my culture shocks and fun experiences right here. Homesick? Nah, I’m living my own Hannah Montana moment."</p>
+
+            <p>"Hey there! I’m spending a year trying to live like a true ‘American girl,’ and I want you to join me for the ride. It's my first time outside of Europe and away from my parents—so you can bet this is all new to me! I’m obsessed with fashion and love traveling, and I’ll be sharing all my culture shocks and fun experiences right here. Homesick? Nah, I’m living my own Hannah Montana moment."</p>
+            
             </div>
           </div>
       </section>
       <section id="skills" class="skills">
-        <div class="main-content">
-            <img src="images/stadium.jpg" alt="Me" class="main-image">
-            <div class="text-content">
-              <h2>Welcome to skills!</h2>
-              <p>"Hey there! I’m spending a year trying to live like a true ‘American girl,’ and I want you to join me for the ride. It's my first time outside of Europe and away from my parents—so you can bet this is all new to me! I’m obsessed with fashion and love traveling, and I’ll be sharing all my culture shocks and fun experiences right here. Homesick? Nah, I’m living my own Hannah Montana moment."</p>
-            </div>
+        <div class="text-content" style="text-align: center;">
+          <h2>Welcome to skills!</h2>
+          <p>"Hey there! I’m spending a year trying to live like a true ‘American girl,’ and I want you to join me for the ride. It's my first time outside of Europe and away from my parents—so you can bet this is all new to me! I’m obsessed with fashion and love traveling, and I’ll be sharing all my culture shocks and fun experiences right here. Homesick? Nah, I’m living my own Hannah Montana moment."</p>
+        </div>
+        <div class="skills-container" style="display: flex;">
+          <div class="buttons" style="flex: 1; display: flex; flex-direction: column;">
+            <button onclick="showContent('programs')">Programs</button>
+            <button onclick="showContent('languages')">Languages</button>
+            <button onclick="showContent('certifications')">Certifications</button>
           </div>
+          <div id="skills-content" class="skills-content" style="flex: 2; padding-left: 20px;">
+            <h3>Programs</h3><p>Details about various programs...</p>
+          </div>
+          </div>
+        </div>
       </section>
       <section id="aspirations" class="aspirations">
         <div class="main-content">
@@ -62,9 +84,17 @@
             <div class="text-content">
               <h2>Welcome to aspirations!</h2>
               <p>"Hey there! I’m spending a year trying to live like a true ‘American girl,’ and I want you to join me for the ride. It's my first time outside of Europe and away from my parents—so you can bet this is all new to me! I’m obsessed with fashion and love traveling, and I’ll be sharing all my culture shocks and fun experiences right here. Homesick? Nah, I’m living my own Hannah Montana moment."</p>
+          
+              <p>"Hey there! I’m spending a year trying to live like a true ‘American girl,’ and I want you to join me for the ride. It's my first time outside of Europe and away from my parents—so you can bet this is all new to me! I’m obsessed with fashion and love traveling, and I’ll be sharing all my culture shocks and fun experiences right here. Homesick? Nah, I’m living my own Hannah Montana moment."</p>
+  
+              <p>"Hey there! I’m spending a year trying to live like a true ‘American girl,’ and I want you to join me for the ride. It's my first time outside of Europe and away from my parents—so you can bet this is all new to me! I’m obsessed with fashion and love traveling, and I’ll be sharing all my culture shocks and fun experiences right here. Homesick? Nah, I’m living my own Hannah Montana moment."</p>
+  
+              <p>"Hey there! I’m spending a year trying to live like a true ‘American girl,’ and I want you to join me for the ride. It's my first time outside of Europe and away from my parents—so you can bet this is all new to me! I’m obsessed with fashion and love traveling, and I’ll be sharing all my culture shocks and fun experiences right here. Homesick? Nah, I’m living my own Hannah Montana moment."</p>
+              
             </div>
           </div>
       </section>
+      
       <footer class="footer">
         <p> &copy; 2024 Alba's Blog. All rights reserved.</p>
         <p>Follow me on 
@@ -72,10 +102,7 @@
           <a href="https://twitter.com">Twitter</a>
         </p>
       </footer>
-
-              <!-- Bootstrap core JS-->
               <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
-              <!-- Core theme JS-->
               <script src="js/scripts.js"></script>
     </div>
   </body>
