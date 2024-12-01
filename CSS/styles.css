@@ -73,7 +73,7 @@ body {
   height: 300px;
   text-align: center;
   width: 100%;
-  background-image:url("../images/well-and-south.jpg");
+  background-image:url("../images/uncschool.avif");
   background-position: center center;
   background-size: cover;
 }
@@ -84,7 +84,7 @@ body {
 }
 
 .header h1 {
-  font-family: 'Montserrat', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family:Georgia, 'Times New Roman', Times, serif;
   margin: 0;
   font-size: 2.5em;
 }
@@ -117,7 +117,7 @@ body {
 }
 
 .text-content h2 {
-  font-family: 'Montserrat', Verdana, Geneva, Tahoma, sans-serif;
+  font-family:Georgia, 'Times New Roman', Times, serif;
   margin: 0;
   font-size: 1.8em;
 }
