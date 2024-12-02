@@ -2,8 +2,8 @@ body {
   font-family: 'Montserrat', Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #36413E;
-  color: darkslategrey;
+  background-color: white;
+  color: white;
 }
 
 .grid-container {
@@ -76,6 +76,8 @@ body {
   background-image:url("../images/uncschool.avif");
   background-position: center center;
   background-size: cover;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 .custom-dark-glow {
@@ -97,7 +99,7 @@ body {
 
 .main-content1, .life-in-us, .skills, .aspirations {
   padding: 20px;
-  background-color: white;
+  background-color:#7BAFD4;
   border-radius: 10px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -111,7 +113,7 @@ body {
   width: 210px;
   height: auto;
   margin-right: 50px;
-  border: 2px solid black;
+  border: 2px solid  white;
   border-radius: 10px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -129,7 +131,7 @@ body {
 
 .footer {
   grid-area: footer;
-  background-color: #f1f1f1;
+  background-color: whitesmoke;
   padding: 20px;
   text-align: center;
   color: black;
@@ -211,7 +213,7 @@ body {
 }
 
 .buttons button:hover {
-  background-color: #7BAFD4;
+  background-color: black;
   transform: scale(1.05);
 }
 
