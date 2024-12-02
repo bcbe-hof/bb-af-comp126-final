@@ -33,19 +33,20 @@ function myFunction() {
     }
   }
 
+  /*The script that handles the buttons in the skills container/*/
   function showContent(category) {
     const skillsContent = document.getElementById('skills-content');
     let content = '';
 
     switch (category) {
-      case 'programs':
-        content = '<h3>Programs</h3><p>Details about various programs...</p>';
+      case 'Technologies':
+        content = '<h3>Programs</h3><p>Programs I have intermediate-to-advanced skill with</p> <img src="images/python-logo-only.png" alt="python logo" class="alt-image"> <img src="images/HTML5_logo.png" alt="html5 logo" class="alt-image"><img src="images/CSS3_logo.png" alt="CSS3 logo" class="alt-image"><img src="images/sql-logo.svg" alt="SQL logo" class="alt-image"><img src="images/figma-logo.png" alt="figma logo" class="alt-image">';
         break;
       case 'languages':
-        content = '<h3>Languages</h3><p>Details about different languages...</p>';
+        content = '<h3>Languages</h3><h4>Spanish (Native)<br><br> English: C1 Cambridge Advanced (Fluent)</h4>';
         break;
       case 'certifications':
-        content = '<h3>Certifications</h3><p>Details about certifications...</p>';
+        content = '<h3>Certifications</h3><h4>Certificate in Recreational Activities Coordinator <br><br> Google Data Analytics Certificate</h4>';
         break;
       default:
         content = '<p>Select an option to see details.</p>';
